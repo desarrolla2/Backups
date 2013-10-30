@@ -1,0 +1,9 @@
+/app/config/config.yml
+/cache
+/build
+/composer.lock
+/vendor
+/.idea
+*~
+*.swp
+

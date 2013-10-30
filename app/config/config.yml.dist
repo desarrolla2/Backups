@@ -1,0 +1,6 @@
+config:
+  backups_directory: '/tmp'
+  items:
+    -
+      name : 'important_files'
+      path: '/my/paht/my/files'

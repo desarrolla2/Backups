@@ -1,0 +1,19 @@
+#!/usr/bin/env php
+<?php
+/**
+ * This file is part of the backups project.
+ *
+ * Copyright (c)
+ *
+ * This source file is subject to the MIT license that is bundled
+ * with this package in the file LICENSE.
+ */
+
+require __DIR__ . '/../vendor/autoload.php';
+
+use Symfony\Component\Console\Application;
+use Desarrolla2\Backups\Command\BackupsCommand;
+
+$application = new Application();
+$application->add(new BackupsCommand);
+$application->run();
